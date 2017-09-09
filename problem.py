@@ -30,3 +30,6 @@ def createLists() :
     for lab, row in df.iterrows():
         dff.append([row['x'], row['y'], row['garbage']])
 
+    return distances,dff
+
+
